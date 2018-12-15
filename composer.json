@@ -1,0 +1,33 @@
+{
+    "name": "codegrapple/laravel-doctrine-mongodb",
+    "description": "Simple wrapper around Doctrine2 MongoDB ODM",
+    "type": "library",
+    "keywords": ["laravel", "mongo", "mongodb", "doctrine", "odm", "mapper", "document"],
+    "require": {
+        "doctrine/mongodb-odm": "^1.2",
+        "alcaeus/mongo-php-adapter": "^1.1",
+        "php": ">=7.0.0",
+        "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.5",
+        "codeception/mockery-module": "^0.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codegrapple\\Doctrine\\MongoDB\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arian Behvandnejad",
+            "email": "behvandnejad@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
+    }
+}
